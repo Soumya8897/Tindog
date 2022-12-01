@@ -1,0 +1,140 @@
+/* build your own custom Bootstrap theme:
+   https://themestr.app
+*/
+body{
+    font-family: 'Montserrat', sans-serif;;
+}
+
+
+.big-heading{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5rem;
+    line-height:2;
+    font-style: bold;
+    padding-top: 8%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    color: white;
+    
+}
+h2,h3{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 4rem;
+    line-height: 2.5;
+   
+
+}
+
+#brand{
+    padding-left: 10px;
+    text-decoration: solid;
+    font-family:  'Ubuntu',sans-serif;
+    font-size: 3rem;
+}
+
+.phoneimg{
+    padding-top: 5%;
+    padding-left: 25%;
+    padding-bottom: 5%;
+    width: 70%;
+    transform: rotate(25deg);
+
+}
+.navbar navbar-expand-lg  navbar-dark{
+    padding-right: 25%;
+}
+.nav-item{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.nav-link{
+    font-family: 'Montserrat-black';
+    font-size: 25px;
+
+    
+}
+#features{
+    padding: 7% 15%;
+}
+.row{
+    align-items: center;
+    color:#ef8172;
+}
+.col-lg-4{
+    text-align: center;
+   
+}
+.para{
+    font-size: 150%;
+    line-height: 1.5;
+    color: #8f8f8f;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+#pricing{
+   padding: 100px;
+   text-align: center;
+}
+.pricing-col{
+    padding: 5% 5%;
+}
+.press-logo{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+@media(max-width:1028px){
+    #title{
+        text-align: center;
+        line-height: 1;
+    }
+    .phoneimg{
+        align-items: center;
+        transform: rotate(0);
+    }
+}
+   #cta{
+       background-color: #ff4c68;
+       color:#fff;
+       padding: 7% 15%;
+       text-align: center;
+   }
+  .fmsg{
+       font-family: 'Montserrat',sans-serif;
+       font-size: 3.5rem;
+       line-height: 1.5;
+       color: #fff;
+       padding-bottom: 3%;
+  }
+  #footer{
+      padding: 7% 15%;
+      text-align: center;
+  }
+  .sc{
+      margin: 20px 10px;
+  }
+.container-fluid{
+    padding-top: 1%;
+    margin-left: 25%;
+    padding-bottom: 1%;
+    margin-right: 23%;
+    background-color: #ff4c68;
+}
